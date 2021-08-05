@@ -22,7 +22,6 @@
 
 .nav-links-desktop a {
     color: var(--nav-links-color);
-    text-align: center;
     text-decoration: none;
     font-size: 17px;
 }
@@ -38,11 +37,16 @@
 }
 
 .nav-link-dropdown-show {
+    border-radius: 10px;
+    background-color: white;
+    padding:20px;
     position: absolute;
     display: none;
     flex-direction: column;
     gap: 12px;
-    padding: 10px 0 0 0;
+ 
+    margin-left: -50px;
+    
 }
 
 .for-mobile {
@@ -52,6 +56,8 @@
     margin: auto;
     justify-content: center;
     align-items: center;
+    transition: all 5s ease-in;
+
 }
 
 .nav-links-for-mobile {
@@ -60,8 +66,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     margin: auto;
     gap: 15px;
+    transition: all 5s ease-in;
+
 }
 
 .nav-links-for-mobile a {
@@ -81,6 +90,8 @@
     position: absolute;
     right: 60px;
     top: 68px;
+    transition: all 5s ease-in;
+
 }
 
 .logo {
