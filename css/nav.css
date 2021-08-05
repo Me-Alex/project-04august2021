@@ -39,14 +39,12 @@
 .nav-link-dropdown-show {
     border-radius: 10px;
     background-color: white;
-    padding:20px;
+    padding: 20px;
     position: absolute;
     display: none;
     flex-direction: column;
     gap: 12px;
- 
     margin-left: -50px;
-    
 }
 
 .for-mobile {
@@ -56,8 +54,7 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    transition: all 5s ease-in;
-
+    transition: all 0.5s ease;
 }
 
 .nav-links-for-mobile {
@@ -70,7 +67,6 @@
     margin: auto;
     gap: 15px;
     transition: all 5s ease-in;
-
 }
 
 .nav-links-for-mobile a {
@@ -91,7 +87,11 @@
     right: 60px;
     top: 68px;
     transition: all 5s ease-in;
+}
 
+.img-close:hover {
+    width: 33px;
+    height: 32px;
 }
 
 .logo {
@@ -104,8 +104,17 @@
 
 .logo-img {
     width: 60px;
-    height: auto;
+    height: 60px;
     display: none;
+    transition: all 0.5s ease-in;
+
+}
+
+.logo-img:hover {
+    width: 65px;
+    height: 60px;
+    transition: all 0.5s ease-in;
+
 }
 
 /*dafasdf*/
