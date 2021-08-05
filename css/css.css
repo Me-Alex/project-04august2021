@@ -60,6 +60,9 @@ h1,h2,h3,h4,h5,h6{
     width: 100px;
     height: 100px;
 }
+.social-media a{
+    cursor: pointer;
+}
 /* .div3-2{
     width: 20px;
     height: 30px;
