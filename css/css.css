@@ -42,6 +42,7 @@ h1,h2,h3,h4,h5,h6{
 .div3 img{
     width: 273px;
     height: 183px;
+    border-radius: 25px;
 }
 /* .div3-1 img{
     width: 100px;
