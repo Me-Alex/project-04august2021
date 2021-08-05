@@ -39,10 +39,14 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 50px;
     gap: 40px;
 }
-.div3-1 img{
+.div3 img{
+    width: 273px;
+    height: 183px;
+}
+/* .div3-1 img{
     width: 100px;
     height: auto;
-}
+} */
 .text{
     text-align: justify;
     width: 80%;
