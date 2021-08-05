@@ -1,0 +1,100 @@
+.nav-container {
+    display: flex;
+    width: 90vw;
+    max-width: 1500px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.nav-links-desktop {
+    max-width: 1500px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.nav-links-desktop a {
+    color: var(--nav-links-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links-desktop a:hover {
+    color: var(--nav-links-color-hover);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-link-dropdown:hover .nav-link-dropdown-show {
+    display: flex;
+}
+
+.nav-link-dropdown-show {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 0 0 0;
+}
+
+.for-mobile {
+    display: none;
+    width: 100vw;
+    height: 60vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links-for-mobile {
+    max-width: 1500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 15px;
+}
+
+.nav-links-for-mobile a {
+    color: var(--nav-links-color);
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.nav-links-for-mobile a:hover {
+    color: var(--nav-links-color-hover);
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.img-close {
+    display: none;
+    position: absolute;
+    right: 60px;
+    top: 67px;
+}
+
+.logo {
+    display: flex;
+    width: fit-content;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;
+    height: auto;
+    display: none;
+}
+
+/*dafasdf*/

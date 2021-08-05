@@ -1,0 +1,7 @@
+:root{
+    --bg-body:#ffffff;
+    --bg-container:#bebebe;
+    --nav-links-color:rgb(0, 0, 0);
+    --nav-links-color-hover:#f8b600d3;
+    --text-color:rgb(65, 43, 124);
+}
